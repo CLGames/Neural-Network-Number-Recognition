@@ -44,10 +44,10 @@ namespace NeuralNetUI
 
         private void LoadParameters()
         {
-            string[] b1 = File.ReadAllLines("b-1.txt");
-            string[] b2 = File.ReadAllLines("b-2.txt");
-            string[] w1 = File.ReadAllLines("w-1.txt");
-            string[] w2 = File.ReadAllLines("w-2.txt");
+            string[] b1 = File.ReadAllLines("data/b-1.txt");
+            string[] b2 = File.ReadAllLines("data/b-2.txt");
+            string[] w1 = File.ReadAllLines("data/w-1.txt");
+            string[] w2 = File.ReadAllLines("data/w-2.txt");
 
             double[] allHiddenWeights = ExtractWeights(w1);
             double[] allOutputWeights = ExtractWeights(w2);
