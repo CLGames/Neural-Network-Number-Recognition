@@ -1,4 +1,6 @@
-This is a simple Multilayer Perceptron (MLP) written from scratch and trained on the MNIST dataset to recognise handwritten digits that the user draws into the UI.
+This is a simple Multilayer Perceptron (MLP) written completely from scratch and trained on the MNIST dataset to recognise handwritten digits that the user draws into the UI.
+
+<img width="781" height="388" alt="image" src="https://github.com/user-attachments/assets/828ae89b-efbd-4c9c-b047-aeecb13c2941" />
 
 This neural network model features a 784 neuron input layer (to match with MNIST image size), a 128 neuron hidden layer, and a 10 neuron output layer (corresponding to the 10 possible digits). ReLU is used for the hidden layer activation function and Softmax for the output.
 
